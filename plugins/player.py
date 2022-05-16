@@ -109,7 +109,7 @@ async def play(_, message: Message):
     global que
     global useer
     
-    lel = await message.reply("**𝑺𝒆𝒂𝒓𝒄𝒉𝒊𝒏𝒈**\n\n0% ▓𝐍▓𝐎▓𝐁▓𝐈▓𝐓▓𝐀▓100% ...**")
+    lel = await message.reply("**𝑺𝒆𝒂𝒓𝒄𝒉𝒊𝒏𝒈...**")
 
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
@@ -117,7 +117,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "Nobita_Player"
+        user.first_name = "BHATAKTI_Player"
     usar = user
     wew = usar.id
     try:
@@ -141,12 +141,12 @@ async def play(_, message: Message):
                     pass
                 except Exception:
                     await lel.edit(
-                        f"**𝑷𝒍𝒆𝒂𝒔𝒆 𝑴𝒂𝒏𝒖𝒂𝒍𝒍𝒚 𝑨𝒅𝒅 𝑨𝒔𝒔𝒊𝒔𝒕𝒂𝒏𝒕 𝒐𝒓 𝑪𝒐𝒏𝒕𝒂𝒄𝒕 :-  @Nobi_xxd** ")
+                        f"**𝑷𝒍𝒆𝒂𝒔𝒆 𝑴𝒂𝒏𝒖𝒂𝒍𝒍𝒚 𝑨𝒅𝒅 𝑨𝒔𝒔𝒊𝒔𝒕𝒂𝒏𝒕 𝒐𝒓 𝑪𝒐𝒏𝒕𝒂𝒄𝒕 :-  @ZINDA_H_TU_MERE_LIYE_HEART_HACK** ")
     try:
         await USER.get_chat(chid)
     except:
         await lel.edit(
-            f"**𝑷𝒍𝒆𝒂𝒔𝒆 𝑴𝒂𝒏𝒖𝒂𝒍𝒍𝒚 𝑨𝒅𝒅 𝑨𝒔𝒔𝒊𝒔𝒕𝒂𝒏𝒕 𝒐𝒓 𝑪𝒐𝒏𝒕𝒂𝒄𝒕 :-  @AAPLI_YAARI**")
+            f"**𝑷𝒍𝒆𝒂𝒔𝒆 𝑴𝒂𝒏𝒖𝒂𝒍𝒍𝒚 𝑨𝒅𝒅 𝑨𝒔𝒔𝒊𝒔𝒕𝒂𝒏𝒕 𝒐𝒓 𝑪𝒐𝒏𝒕𝒂𝒄𝒕 :-  @ZINDA_H_TU_MERE_LIYE_HEART_HACK**")
         return
     
     audio = (
@@ -164,7 +164,7 @@ async def play(_, message: Message):
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://te.legra.ph/file/85efb96db23cfc3da6768.jpg"
+        thumb_name = "https://telegra.ph/file/489701c1943b78779a0d8.jpg"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -174,7 +174,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="𝐆𝐫𝐨𝐮𝐩 𝐒𝐮𝐩𝐩𝐨𝐫𝐭",
-                            url=f"https://t.me/AAPLI_YAARI")
+                            url=f"https://t.me/Sneha_hearts")
 
                 ]
             ]
@@ -213,14 +213,14 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="𝐆𝐫𝐨𝐮𝐩 𝐒𝐮𝐩𝐩𝐨𝐫𝐭",
-                            url=f"https://t.me/AAPLI_YAARI")
+                            url=f"https://t.me/Sneha_hearts")
                 ]
             ]
         )
 
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://te.legra.ph/file/85efb96db23cfc3da6768.jpg"
+            thumb_name = "https://telegra.ph/file/489701c1943b78779a0d8.jpg"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
@@ -228,7 +228,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="𝐆𝐫𝐨𝐮𝐩 𝐒𝐮𝐩𝐩𝐨𝐫𝐭",
-                            url=f"https://t.me/AAPLI_YAARI")
+                            url=f"https://t.me/Sneha_hearts")
                 ]
             ]
         )
@@ -246,7 +246,7 @@ async def play(_, message: Message):
             return await lel.edit(
                 "**𝑮𝒊𝒗𝒆 𝑴𝒖𝒔𝒊𝒄 𝑵𝒂𝒎𝒆\n𝑻𝒐 𝑷𝒍𝒂𝒚...**"
             )
-        await lel.edit("**𝑷𝒓𝒐𝒄𝒆𝒔𝒔𝒊𝒏𝒈**\n\n0% ▓𝐍▓𝐎▓𝐁▓𝐈▓𝐓▓𝐀▓ 100%**")
+        await lel.edit("**𝑷𝒓𝒐𝒄𝒆𝒔𝒔𝒊𝒏𝒈**")
         query = message.text.split(None, 1)[1]
         # print(query)
         try:
@@ -281,7 +281,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="𝐆𝐫𝐨𝐮𝐩 𝐒𝐮𝐩𝐩𝐨𝐫𝐭",
-                            url=f"https://t.me/AAPLI_YAARI")
+                            url=f"https://t.me/Sneha_hearts")
 
                 ]
             ]
@@ -333,7 +333,7 @@ async def play(_, message: Message):
 async def pause(_, message: Message):
     await clientbot.pytgcalls.pause_stream(message.chat.id)
     await message.reply_photo(
-                             photo="https://te.legra.ph/file/74d53fafcee793bf4fe19.jpg", 
+                             photo="https://telegra.ph/file/489701c1943b78779a0d8.jpg", 
                              caption="⏸ **Track paused.**\n\n• **To resume the stream, use the**\n» /resume command."
     )
 
@@ -344,7 +344,7 @@ async def pause(_, message: Message):
 async def resume(_, message: Message):
     await clientbot.pytgcalls.resume_stream(message.chat.id)
     await message.reply_photo(
-                             photo="https://te.legra.ph/file/8490e5229e0072aa3abab.jpg", 
+                             photo="https://telegra.ph/file/489701c1943b78779a0d8.jpg", 
                              caption="▶️ **Track resumed.**\n\n• **To pause the stream, use the**\n» /pause command."
     )
 
@@ -378,7 +378,7 @@ async def skip(_, message: Message):
 
 
     await message.reply_photo(
-                             photo="https://te.legra.ph/file/8490e5229e0072aa3abab.jpg", 
+                             photo="https://telegra.ph/file/489701c1943b78779a0d8.jpg", 
                              caption=f'⏭ **Skipped to the next track.**'
    ) 
 
@@ -394,7 +394,7 @@ async def stop(_, message: Message):
 
     await clientbot.pytgcalls.leave_group_call(message.chat.id)
     await message.reply_photo(
-                             photo="https://te.legra.ph/file/5f54f47ce510caf96c492.jpg", 
+                             photo="https://telegra.ph/file/489701c1943b78779a0d8.jpg", 
                              caption="**𝐍𝐎𝐁𝐈𝐓𝐀 𝐌𝐔𝐒𝐈𝐂 𝑵𝒐𝒘\n 𝑬𝒏𝒅𝒆𝒅🙃...**"
     )
 
@@ -412,6 +412,6 @@ async def admincache(client, message: Message):
     )
 
     await message.reply_photo(
-                              photo="https://te.legra.ph/file/a6d443bdb82db9908e4af.jpg",
+                              photo="https://telegra.ph/file/489701c1943b78779a0d8.jpg",
                               caption="**𝑹𝒆𝒍𝒐𝒂𝒅𝒆𝒅🤗...**"
     )
