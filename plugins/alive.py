@@ -33,14 +33,15 @@ async def _human_time_duration(seconds):
 @Client.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://te.legra.ph/file/088e7be378ea5a5fc2854.jpg",
-        caption=f"""**𝐈 𝐀𝐌 𝐍𝐎𝐁𝐈𝐓𝐀 𝐌𝐔𝐒𝐈𝐂 𝐁𝐎𝐓
-ʙᴏᴛ ʜᴀɴᴅʟᴇ ʙʏ [𝐍𝐎𝐁𝐈𝐓𝐀_𝐗𝐃](https://t.me/Nobi_xxd)**""",
+        photo=f"https://telegra.ph/file/489701c1943b78779a0d8.jpg",
+        caption=f"""**ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs ...
+┏━━━━━━━━━━━━━━━━━┓
+┣★[𝐜𝐫𝐞𝐚𝐭𝐞𝐫](https://t.me/ZINDA_H_TU_MERE_LIYE_HEART_HACK)**""",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        " [𝐆𝐫𝐨𝐮𝐩 𝐒𝐮𝐩𝐩𝐨𝐫𝐭] ", url=f"https://t.me/AAPLI_YAARI")
+                        " [𝐆𝐫𝐨𝐮𝐩 𝐒𝐮𝐩𝐩𝐨𝐫𝐭] ", url=f"https://t.me/+6-3fF5htmh1iZmU1")
                 ]
                 
            ]
@@ -48,16 +49,16 @@ async def start_(client: Client, message: Message):
     )
     
     
-@Client.on_message(commandpro(["/start", "hi", "NOBITA_XD"]) & filters.group & ~filters.edited)
+@Client.on_message(commandpro(["/start", "hi", "ZINDA_H_TU_MERE_LIYE_HEART_HACK"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://te.legra.ph/file/088e7be378ea5a5fc2854.jpg",
+        photo=f"https://telegra.ph/file/489701c1943b78779a0d8.jpg",
         caption=f"""HELLO 🤗""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        " [𝐆𝐫𝐨𝐮𝐩 𝐒𝐮𝐩𝐩𝐨𝐫𝐭] ", url=f"https://t.me/AAPLI_YAARI")
+                        " [𝐆𝐫𝐨𝐮𝐩 𝐒𝐮𝐩𝐩𝐨𝐫𝐭] ", url=f"https://t.me/vampair_diaries2134")
                 ]
             ]
         ),
@@ -67,13 +68,13 @@ async def start(client: Client, message: Message):
 @Client.on_message(commandpro(["repo", "#repo", "@repo", "/repo", "source"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://te.legra.ph/file/088e7be378ea5a5fc2854.jpg",
+        photo=f"https://telegra.ph/file/489701c1943b78779a0d8.jpg",
         caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        " [𝙍𝙚𝙥𝙤𝙨𝙞𝙩𝙤𝙧𝙮] ", url=f"https://t.me/Nobi_xxd")
+                        " [𝙍𝙚𝙥𝙤𝙨𝙞𝙩𝙤𝙧𝙮] ", url=f"https://t.me/vampair_diaries2134")
                 ]
             ]
         ),
